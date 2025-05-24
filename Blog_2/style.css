@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+
+.bg-color-defaut {
+    background: #e9ecef;
+    min-height: 150px;
+}
+
+.h1-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.p-subtiltle {
+    font-size: 1rem;
+    font-weight: 400; 
+}
