@@ -15,9 +15,14 @@ body {
     font-weight: 300;
 }
 
-.bg-color-defaut {
+.bg-color-default {
     background: #e9ecef;
     min-height: 150px;
+}
+
+.bg-color-blue {
+    background: #343a40;
+    color: #fff;
 }
 
 .h1-title {
@@ -25,7 +30,20 @@ body {
     font-weight: 700;
 }
 
-.p-subtiltle {
+.p-subtitle {
     font-size: 1rem;
-    font-weight: 400; 
+    font-weight: 400;
+}
+
+.btn-default {
+    font-size: 16px;
+    height: 50px;
+}
+
+.footer {
+    min-height: 0px;
+}
+
+.container {
+    max-width: 1400px;
 }
