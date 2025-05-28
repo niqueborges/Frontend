@@ -16,7 +16,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container pt-1 pb-1">
-            <a class="navbar-brand" href="#">Hotel Samurai</a>
+            <a class="navbar-brand fw-bold" href="#">Hotel Samurai</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,14 +52,14 @@
                                 <input type="date" class="form-control rounded-0" name="entrada" id="entrada">
                             </div>
                             <div class="col-12 col-md-12 col-lg-2 mb-3">
-                                <label for="saida" class="form-label fw-bold">Saida</label>
+                                <label for="saida" class="form-label fw-bold">Saída</label>
                                 <input type="date" class="form-control rounded-0" name="entrada" id="saida">
                             </div>
                             <div class="col-12 col-md-12 col-lg-3 mb-3">
-                                <label for="periodo" class="form-label fw-bold">Periodo</label>
+                                <label for="periodo" class="form-label fw-bold">Período</label>
                                 <select class="form-select rounded-0" name="periodo" id="periodo"
                                     aria-label="Selecione o periodo">
-                                    <option value="" selected>Selecione o periodo</option>
+                                    <option value="" selected>Selecione o período</option>
                                     <option value="madrugada">Madrugada</option>
                                     <option value="manha">Manhã</option>
                                     <option value="tarde">Tarde</option>
@@ -77,6 +77,103 @@
         </div>
     </main>
     <!--End banner -->
+
+    <!--main-destaques-->
+    <main class="w-100 pb-5 pt-lg-4 pb-lg-5">
+        <div class="container pt-5 pb-2 pt-lg-5 pb-lg-0">
+            <h1 class="fs-4 text-center text-lg-start mb-5 fw-bold">
+                Hotéis e Pousadas em destaques
+            </h1>
+            <div class="row mb-4">
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                    <div class="card shadow border-0">
+                        <div class="position-relative">
+                            <img src="assets/img/hoteis/hotel-1.jpeg" alt="Hotel 01" class="card-img-top">
+                            <span class="position-absolute 
+                            bottom-0 
+                            right-0 
+                            bg-color-orange 
+                            ps-2 
+                            pe-2 
+                            pt-1 
+                            pb-1">
+                                R$: 669,00
+                            </span>
+                        </div>
+                        <div class="card-body p-3">
+                            <h5 class="card-title mb-1">Hotel California</h5>
+                            <p class="text-muted">Porto Seguro/BA</p>
+                            <p class="card-text">
+                                Hotel próximo de várias lindas praias, com várias atrações turisticas e comida tipicas
+                                da região da Bahia.
+                            </p>
+                            <a href="./available.html" class="btn btn-orange rounded-0 w-100">Verificar Disponibilidade</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                    <div class="card shadow border-0">
+                        <div class="position-relative">
+                            <img src="assets/img/hoteis/hotel-2.jpeg" alt="Hotel 01" class="card-img-top">
+                            <span class="position-absolute 
+                            bottom-0 
+                            right-0 
+                            bg-color-orange 
+                            ps-2 
+                            pe-2 
+                            pt-1 
+                            pb-1">
+                                R$: 789,00
+                            </span>
+                        </div>
+                        <div class="card-body p-3">
+                            <h5 class="card-title mb-1">Hotel Paris Germany</h5>
+                            <p class="text-muted">ilhéus/BA</p>
+                            <p class="card-text">
+                                Se você procura um hotel totalmente luxuoso e tecnologico, esse daqui é o ideal para
+                                você e sua família.
+                            </p>
+                            <a href="./unavailable.html" class="btn btn-orange rounded-0 w-100">Verificar Disponibilidade</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                    <div class="card shadow border-0">
+                        <div class="position-relative">
+                            <img src="assets/img/hoteis/hotel-1.jpeg" alt="Hotel 01" class="card-img-top">
+                            <span class="position-absolute 
+                            bottom-0 
+                            right-0 
+                            bg-color-orange 
+                            ps-2 
+                            pe-2 
+                            pt-1 
+                            pb-1">
+                                R$: 899,00
+                            </span>
+                        </div>
+                        <div class="card-body p-3">
+                            <h5 class="card-title mb-1">Pousada Atlântica</h5>
+                            <p class="text-muted">Rio de Janeiro/RJ</p>
+                            <p class="card-text">
+                                Se você procura um hotel totalmente luxuoso e tecnologico, esse daqui é o ideal para
+                                você e sua família.
+                            </p>
+                            <a href="./available.html" class="btn btn-orange rounded-0 w-100">Verificar Disponibilidade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="#" class="btn btn-orange-outline ps-4 pe-4">
+                        Visualizar todos!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--End-Destaques!-->
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
