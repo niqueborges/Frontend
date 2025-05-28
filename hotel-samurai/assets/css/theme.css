@@ -3,22 +3,25 @@
 @import './buttons.css';
 @import './background.css';
 @import './inputs.css';
+@import './position.css';
+@import './colors.css';
 
 
 /* Color Variables */
 /* This file contains the color variables used throughout the theme */
 :root {
-    --bg-orange:       #F46A05;
+    --bg-orange: #F46A05;
     --bg-orange-hover: #D85F08;
-    --bg-black:        #000000;
-    --bg-marron-1:     #757575;
-    --bg-marron-2:     #F4F4F4;
-    --bg-white:        #FFFFFF;
-    --bg-yellow:       #FCB705;
-    --bg-roxo:         #E9008C;
+    --bg-black: #000000;
+    --bg-marron-1: #757575;
+    --bg-marron-2: #F4F4F4;
+    --bg-white: #FFFFFF;
+    --bg-yellow: #FCB705;
+    --bg-roxo: #E9008C;
 }
 
-html, body {
+html,
+body {
     font-size: 16px;
     font-family: 'Ruda', sans-serif;
     font-weight: 400;
