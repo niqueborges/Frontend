@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Samurai</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="./favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 
 <body>
@@ -21,24 +22,15 @@
             <a class="navbar-brand fw-bold" href="#">Hotel Samurai</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="navbar-item me-5">
-                        <a href="./index.html" class="nav-link">Home</a>
-                    </li>
-                    <!-- Botão aparece quando tela menor -->
                     <li class="nav-item d-block d-md-none d-lg-none pt-2 pb-2">
                         <a href="#" type="button" class="btn btn-orange w-100 rounded-0">Login</a>
                     </li>
-                    <!-- End Botão tela menor -->
                     <li class="nav-item d-none d-md-block d-lg-block">
-                        <a href="#" type="button" class="btn btn-orange rounded-0 ps-lg-5 pe-lg-5">Login</a>
+                        <a href="#" type="button" class="btn btn-orange rounded-0 ps-lg-5 pe-lg-5 ">Login</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +38,7 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- Banner -->
+    <!--main banner-->
     <main class="w-100 min-vh-100 background-banner d-flex align-items-center">
         <div class="container">
             <div class="card rounded-1 border-0 p-1 pt-4 pb-4 p-lg-4 pb-md-0 pb-lg-0 shadow">
@@ -63,14 +55,14 @@
                                 <input type="date" class="form-control rounded-0" name="entrada" id="entrada">
                             </div>
                             <div class="col-12 col-md-12 col-lg-2 mb-3">
-                                <label for="saida" class="form-label fw-bold">Saida</label>
+                                <label for="saida" class="form-label fw-bold">Saída</label>
                                 <input type="date" class="form-control rounded-0" name="entrada" id="saida">
                             </div>
                             <div class="col-12 col-md-12 col-lg-3 mb-3">
-                                <label for="periodo" class="form-label fw-bold">Periodo</label>
+                                <label for="periodo" class="form-label fw-bold">Período</label>
                                 <select class="form-select rounded-0" name="periodo" id="periodo"
                                     aria-label="Selecione o periodo">
-                                    <option value="" selected>Selecione o periodo</option>
+                                    <option value="" selected>Selecione o período</option>
                                     <option value="madrugada">Madrugada</option>
                                     <option value="manha">Manhã</option>
                                     <option value="tarde">Tarde</option>
@@ -78,7 +70,8 @@
                                 </select>
                             </div>
                             <div class="col-12 col-md-12 col-lg-2 mb-3 pt-3 d-lg-flex align-items-lg-end">
-                                <a href="./result.html" class="btn btn-lg btn-orange w-100 rounded-0 border-0 p-lg-1">Pesquisar</a>
+                                <a href="./result.html"
+                                    class="btn btn-lg btn-orange w-100 rounded-0 border-0 p-lg-1">Pesquisar</a>
                             </div>
                         </div>
                     </form>
@@ -86,7 +79,8 @@
             </div>
         </div>
     </main>
-    <!-- End Banner -->
+    <!--End banner -->
+
 
     <main class="w-100 min-vh-100">
         <div class="container pt-4 pt-lg-5 pb-lg-5">
@@ -381,35 +375,37 @@
     </main>
 
 
-    <!-- Footer -->
+    <!--Fotter-->
     <footer class="w-100 bg-light">
         <div class="container pt-5 pt-lg-5 pb-lg-3">
             <div class="row">
                 <div class="col-12 col-md-3 col-lg-4 mb-3 mb-md-0 mb-lg-0">
                     <h4 class="fs-4 fw-bold text-uppercase mb-2 mb-md-4 mb-lg-4">Hotel Samurai</h4>
                     <p class="text-muted">
-                        Somos uma empresa que nasceu no ano de 1998, cuja missão
-                        é entregar aos nossos clientes e parceiros
-                        os melhores lugares para ter um lazer e um descanso excelente
-                        e merecido.
+                        Somos uma empresa que nasceu no ano de 1998, cuja a missão é entregar aos nossos clientes e
+                        parceiros
+                        os melhores lugares para ter um lazer e um desconto execelençia e merecido.
                     </p>
                     <p>
-                        <a href="#" title="Facebook" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                        <a href="#" title="Facebook" class="text-decoration-none text-muted me-1 me-md-2 me-lg-2">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" title="Twitter" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                         <a href="#" title="Instagram" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
-                        <a href="#" title="YouTube" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
-                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <a href="#" title="Youtube" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" title="WhatsApp" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" title="X" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </p>
                 </div>
                 <div class="col-12 col-md-3 col-lg-4 pe-lg-0 ps-lg-5 mb-3 mb-md-0 mb-lg-0">
-                    <h4 class="fs-4 fw-bold mb-2 mb-md-4 mb-lg-4">Minha conta</h4>
+                    <h4 class="fs-4 fw-bold mb-2 mb-md-4 ">Minha conta</h4>
                     <p class="mb-0">
                         <a href="#" class="text-decoration-none text-muted">Minhas viagens</a>
                     </p>
@@ -418,7 +414,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-3 col-lg-4 mb-3 mb-md-0 mb-lg-0">
-                    <h4 class="fs-4 fw-bold mb-2 mb-md-4 mb-lg-4">Informações adicionais</h4>
+                    <h4 class="fs-4 fw-bold mb-2 mb-md-">Infomações adicionais</h4>
                     <p class="mb-0">
                         <a href="#" class="text-decoration-none text-muted">Termos e condições</a>
                     </p>
@@ -434,20 +430,21 @@
                 </div>
             </div>
         </div>
-        <div class="w-100 bg-color-orange d-flex justify-content-center align-items-center">
+        <div class="w-100 bg-color-orange d-flex justify-content-center align-center">
             <p class="mb-0 pt-1 pb-1">
-                &copy; Todos os direitos reservados
+                &copy; 2025 Todos os direitos reservados
             </p>
         </div>
+        <!-- Foooter end-->
     </footer>
-    <!-- End Footer -->
+    <!--End Fotter-->
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
-    crossorigin="anonymous"></script>
+<<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 
 </html>
